@@ -12,7 +12,61 @@
     <title>Hello, world!</title>
 </head>
 <body>
-<h1>Hello, world!</h1>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+    <a class="navbar-brand" href="#"><img src="images/flower-icon.png" height="32" width="32"/>Alice Zelada</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="step1.html"> Browser Check</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="step2.html"> TCP Connection</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href=" "> Get Request</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<main role="main" class="container">
+    <div class="jumbotron">
+        <div class="hero-text">
+            <h1>How A Webpage Works</h1>
+            <p class="lead">What happens when you request a secure page?</p>
+            <a class="btn btn-lg btn-primary" href="step1.html" role="button">Learn More</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6 border-col">
+            <p>
+                Have you ever wondered how a Web page works? Have you ever heard the word "HTML" and wondered what it
+                means? Whether you are an engineer, developer, marketer or even in sales, it is always good to have a basic
+                understanding of what is going on behind our browsers and how information is transferred to our
+                computers via the internet.
+            </p>
+        </div>
+        <div class="col-6 border-col">
+            <p>
+                Although this seems like a very tedious prolonged process we know that it takes less than seconds for a
+                web page to render after we hit enter on our keyboard. All of these steps happens within milliseconds
+                before we could even notice.
+            </p>
+        </div>
+    </div>
+
+    <div id="footer" class="centerText clear-fix">
+        &copy; 2018 Alice
+    </div>
+
+</main>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
