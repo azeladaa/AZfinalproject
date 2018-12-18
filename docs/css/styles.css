@@ -131,6 +131,14 @@ body {
     clear: both;
 }
 
+.center-text{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.round-img{
+    padding: 5%;
+}
 
 /*feature titles */
 
@@ -143,7 +151,7 @@ body {
    }
 
 .divider{
-    margin: 5rem 0;
+    margin: 3rem 0;
 }
 
 
